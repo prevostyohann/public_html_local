@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                </ul>
+            </nav>
+    </header>
+        <h1>Contact</h1>
+        <h2>Notre équipe</h2>
+        <img src="./images/img4.jpg" alt="img4" height="200" width="200">
+        
+<form action="#" method="post">
+
+<fieldset>
+
+    <legend>Connexion</legend>
+
+        <p>
+
+            <label>Identifiant :</label>
+            <span class="tab"></span>
+            <input type="text" name="identifiant" id="identifiant" placeholder="Identifiant"  autofocus required/><br><br>
+
+            <label>Mot de Passe&nbsp;:</label>
+            <span class="tab"></span>
+            <input type="password" name="mot de passe" id="mot de passe" placeholder="Mot de Passe" required/><br><br>
+
+        </p>
+
+</fieldset>
+
+<fieldset>
+
+    <legend>Identité</legend>
+
+        <p>
+
+            <label>Civilité :</label>
+            <span class="tab"></span>
+            <select title="civilité" name="civilité" size="1" required>
+                <option value="1">Mme.</option>
+                <option value="2">Mr.</option>
+                <option value="3">Autre</option>
+            </select><br><br>
+
+            <label for="Nom">Nom :</label>
+            <span class="tab"></span>
+            <input type="text" name="Nom" id="Nom" placeholder="Nom" required/><br><br>
+
+            <label for="Prénom">Prénom :</label>
+            <span class="tab"></span>
+            <input type="text" name="Prénom" id="Prénom" placeholder="Prénom" required/><br><br>
+
+            <label for="Téléphone">Téléphone :</label>
+            <span class="tab"></span>
+            <input type="tel" name="Téléphone" id="Téléphone" placeholder="06.07.08.09.10" size="10" pattern="[0-9]{10}" required/><br><br>
+
+            <label for="Adresse">Adresse Postale :</label>
+            <span class="tab"></span>
+            <textarea name="Adresse" maxlength="100" placeholder="Adresse" rows="2" required></textarea><br><br>
+
+        </p>
+</fieldset>
+
+<fieldset>
+
+    <legend>Détails Personnels</legend>
+        
+        <p>
+
+            <label for="Email">Email :</label>
+            <span class="tab"></span>
+            <input type="Email" name ="Email" placeholder="Email@exemple.com" required/><br><br>
+
+            <label for="Teams">Teams :</label>
+            <span class="tab"></span>
+            <input type="text" name="Teams" id="Teams" placeholder="Teams" required/><br><br>
+
+            <label for="GitHub">GitHub :</label>
+            <span class="tab"></span>
+            <input type="text" name="GitHub" id="GitHub" placeholder="GitHub" required/><br><br>
+
+            <label for="votresite">Votre Site :</label>
+            <span class="tab"></span>
+            <input type="url" name="votresite" id="votresite" placeholder="https://votresite.com" /><br><br>
+
+            <label for="descriptif">Descriptif :</label>
+            <span class="tab"></span>
+            <textarea name="descriptif" maxlength="200" placeholder="200 Caractère max" rows="3" cols="50"></textarea><br><br>
+
+            <label for="imageUpload">Photo :</label>
+            <input type="file" id="imageUpload"
+               name="image" accept="image/png, image/gif, image/jpeg" required><br><br>
+
+        </p>
+
+</fieldset>
+
+<fieldset class="Intérêt">
+
+    <legend>Centres D'Intérêt</legend>
+
+        <p>
+
+            <input type="checkbox" name="Intérêt" value="Football" id="Football" /> <label for="Football" id="Football">Football</label><br>
+            <input type="checkbox" name="Intérêt" value="Rugby" id="Rugby" />
+            <label for="Rugby" id="Rugby">Rugby</label><br>
+            <input  type="checkbox" name="Intérêt" value="Tennis" id="Tennis" /> <label 
+        for="Tennis" id="Tennis">Tennis</label><br>
+            <input type="checkbox" name="Intérêt" value="autre" id="autre" /> <label for="autre" id="Autre">
+        Autre...</label><br><br>
+         
+         
+            <label for="precisions" id="precisions">"Autre", veuillez préciser :
+            <textarea name="precisions" id="precisions" cols="40"
+         rows="3"></textarea></label>
+
+        </p>
+
+</fieldset>
+
+<fieldset>
+
+    <legend>CGU / NewsLetter</legend>
+
+        <p>
+
+            <input type="checkbox" id="newsletter" name="newsletter" required>
+            <label for="newsletter" id="newsletter">J'ai lu les CGU.</label>
+            <br>
+
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+            <label for="newsletter" id="newsletter">Souhaitez-vous recevoir notre Newsletter ?</label><br><br><br><br>
+
+            <input type="submit" id="button" value="Envoyer"/>
+            <input type="reset" id="reset" value="Reset"/>
+
+        </p>
+        
+</fieldset>
+
+        </form>
+        
+    </body>
+</html>

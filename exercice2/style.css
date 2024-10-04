@@ -1,0 +1,50 @@
+nav{
+    width: 100%;
+    margin: 0px auto 90px auto;
+    background-color: white;
+    position: sticky;
+    padding-top: 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    margin: 0%;
+    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;
+}
+
+.tab { 
+    display:inline-block; 
+    margin-left: 40px; 
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  legend {
+    text-align: center;
+  }
+
+#Football , #Rugby , #Tennis , #Autre , #precisions , #newsletter{
+    text-align: left;
+    display: inline;
+}
+
+#button , #reset {
+    text-align: center;
+    display: inline-block;
+    margin-left: 15%;
+    width: 30%;
+}
